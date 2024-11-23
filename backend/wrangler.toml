@@ -1,0 +1,9 @@
+name = "backend"
+compatibility_date = "2023-12-01"
+send_metrics = true
+
+[vars]
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiNjk0NjYwZTEtOTMyMC00ODI3LTk5ZmQtZmUzMmE3Mjk1ZmQ5IiwidGVuYW50X2lkIjoiNDRiOGE4ZGVjODVmMWNkOGY3MmRlNDE4MTk5NTU2NDJmMGE2Y2QyNmI5YzU2NDFmYTRkYWVmMGMyNzA0MzFjNyIsImludGVybmFsX3NlY3JldCI6ImI3M2VjMWQwLTkxMjItNDg2Yy1iZjVkLTdjNDQwM2U4MmY5MCJ9.dxitDJFOwns_NfSPi9aWOWbah0jIAcSYLugsEpQryYc" 
+JWT_SECRET="mysecretkey"
+CORS_ORIGIN="http://localhost:5173/"  # CORS_ORIGIN = "http://example.com,http://example2.com,http://example3.com"
+
